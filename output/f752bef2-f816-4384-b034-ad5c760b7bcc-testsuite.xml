@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1635718306577' stop='1635718314466'>
+    <name>login:</name>
+    <title>login:</title>
+    <test-cases>
+        <test-case start='1635718306580' status='passed' stop='1635718314370'>
+            <name>login to swaglabs</name>
+            <title>login to swaglabs</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1635718309268' status='passed' stop='1635718311021'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/"' source='02ce492f-ef54-4b5a-a3fe-e53e0bc5ef1f-attachment.png' type='image/png' size='59782'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635718311021' status='passed' stop='1635718312033'>
+                    <name>loginPage: login </name>
+                    <title>loginPage: login </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1635718311021' status='passed' stop='1635718311315'>
+                            <name>I fill field "//input[@id="user-name"]", "standard_user"</name>
+                            <title>I fill field "//input[@id="user-name"]", "standard_user"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "//input[@id="user-name"]", "standard_user"' source='6ecf9aea-d079-4de7-b957-361d6e5c8f38-attachment.png' type='image/png' size='60331'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1635718311315' status='passed' stop='1635718311615'>
+                            <name>I fill field "//input[@id="password"]", "secret_sauce"</name>
+                            <title>I fill field "//input[@id="password"]", "secret_sauce"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "//input[@id="password"]", "secret_sauce"' source='649d00fc-c8e8-4e56-b4f3-e42a24a44687-attachment.png' type='image/png' size='59078'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1635718311615' status='passed' stop='1635718312033'>
+                            <name>I click "//input[@id="login-button"]"</name>
+                            <title>I click "//input[@id="login-button"]"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "//input[@id="login-button"]"' source='a89c98f9-e4e1-4de3-a1f6-c83f75086068-attachment.png' type='image/png' size='180530'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1635718312033' status='passed' stop='1635718314369'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I wait 2' source='568dea72-6016-40e4-b77b-e3b18e408b4f-attachment.png' type='image/png' size='603369'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

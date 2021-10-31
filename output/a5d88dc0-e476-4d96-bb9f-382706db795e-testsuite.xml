@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1635720404972' stop='1635720414852'>
+    <name>login:</name>
+    <title>login:</title>
+    <test-cases>
+        <test-case start='1635720404973' status='failed' stop='1635720414589'>
+            <name>login to swaglabs</name>
+            <title>login to swaglabs</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1635720407843' status='passed' stop='1635720409413'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/"' source='d0648487-93fc-43ca-ae24-88aea2d8c483-attachment.png' type='image/png' size='59782'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635720409413' status='failed' stop='1635720414589'>
+                    <name>loginPage: login </name>
+                    <title>loginPage: login </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1635720409413' status='failed' stop='1635720414583'>
+                            <name>I fill field "//input[@id="user-name"]", "standard_user"</name>
+                            <title>I fill field "//input[@id="user-name"]", "standard_user"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot of step I fill field "//input[@id="password"]", "secret_sauce"' source='296ce87b-949a-4ed0-b291-7000d6e5e64d-attachment.png' type='image/png' size='59078'/>
+                <attachment title='Screenshot of step I click "//input[@id="login-button"]"' source='6e7bfeaa-cd17-4c38-b6c3-bcbcf83fa3c8-attachment.png' type='image/png' size='178169'/>
+                <attachment title='Screenshot of step I fill field "//input[@id="user-name"]", "standard_user"' source='1f17ee35-a5bc-4b02-aa46-62013e890198-attachment.png' type='image/png' size='60331'/>
+            </attachments>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=95.0.4638.54)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=95.0.4638.54)
+                    at Object.getErrorFromResponseBody (/home/shashwata/prototype/codeceptjs/node_modules/webdriver/build/utils.js:94:12)
+                    at WebDriverRequest._request (/home/shashwata/prototype/codeceptjs/node_modules/webdriver/build/request.js:134:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at async Browser.wrapCommandFn (/home/shashwata/prototype/codeceptjs/node_modules/@wdio/utils/build/shim.js:63:29)
+                    at async Browser.$$ (/home/shashwata/prototype/codeceptjs/node_modules/webdriverio/build/commands/browser/$$.js:6:17)
+                    at async Browser.wrapCommandFn (/home/shashwata/prototype/codeceptjs/node_modules/@wdio/utils/build/shim.js:63:29)
+                    at async WebDriver._locate (/home/shashwata/prototype/codeceptjs/node_modules/codeceptjs/lib/helper/WebDriver.js:804:19)
+                    at async WebDriver.fillField (/home/shashwata/prototype/codeceptjs/node_modules/codeceptjs/lib/helper/WebDriver.js:1027:17)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

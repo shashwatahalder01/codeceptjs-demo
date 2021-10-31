@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1635720354671' stop='1635720365290'>
+    <name>login:</name>
+    <title>login:</title>
+    <test-cases>
+        <test-case start='1635720354676' status='failed' stop='1635720365150'>
+            <name>login to swaglabs</name>
+            <title>login to swaglabs</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1635720359160' status='passed' stop='1635720361808'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/"' source='11643e84-4887-49ba-b7df-f015a875092c-attachment.png' type='image/png' size='59782'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635720361809' status='failed' stop='1635720365150'>
+                    <name>loginPage: login </name>
+                    <title>loginPage: login </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1635720361809' status='passed' stop='1635720362207'>
+                            <name>I fill field "//input[@id="user-name"]", "standard_user"</name>
+                            <title>I fill field "//input[@id="user-name"]", "standard_user"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "//input[@id="user-name"]", "standard_user"' source='adff1fd3-3b02-4ed4-bd78-e5b33f15beca-attachment.png' type='image/png' size='60331'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1635720362207' status='passed' stop='1635720362527'>
+                            <name>I fill field "//input[@id="password"]", "secret_sauce"</name>
+                            <title>I fill field "//input[@id="password"]", "secret_sauce"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "//input[@id="password"]", "secret_sauce"' source='9789afcf-0ae9-4886-ba36-c668b6e33ced-attachment.png' type='image/png' size='59078'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1635720362527' status='passed' stop='1635720363013'>
+                            <name>I click "//input[@id="login-button"]"</name>
+                            <title>I click "//input[@id="login-button"]"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "//input[@id="login-button"]"' source='792d9e07-4c54-4a1f-9fed-edc0a106bceb-attachment.png' type='image/png' size='178169'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1635720363013' status='failed' stop='1635720365149'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>ENOENT: no such file or directory, open '/home/shashwata/prototype/codeceptjs/output/record_664590af26e7df224eb293391956f124/0004.png'</message>
+                <stack-trace>Error: ENOENT: no such file or directory, open '/home/shashwata/prototype/codeceptjs/output/record_664590af26e7df224eb293391956f124/0004.png'
+                    at Object.openSync (fs.js:498:3)
+                    at Object.readFileSync (fs.js:394:35)
+                    at persistStep (/home/shashwata/prototype/codeceptjs/node_modules/codeceptjs/lib/plugin/stepByStepReport.js:158:69)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

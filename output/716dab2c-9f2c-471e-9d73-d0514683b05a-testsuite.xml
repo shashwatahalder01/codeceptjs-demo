@@ -1,0 +1,114 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1635719374352' stop='1635719391280'>
+    <name>category:</name>
+    <title>category:</title>
+    <test-cases>
+        <test-case start='1635719377790' status='failed' stop='1635719390779'>
+            <name>change product category</name>
+            <title>change product category</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1635719382331' status='passed' stop='1635719384048'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/"' source='9d04bf89-19c1-41e1-86dc-69d472d06134-attachment.png' type='image/png' size='59782'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635719384048' status='passed' stop='1635719387579'>
+                    <name>loginPage: login </name>
+                    <title>loginPage: login </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1635719384048' status='passed' stop='1635719384450'>
+                            <name>I fill field "//input[@id="user-name"]", "standard_user"</name>
+                            <title>I fill field "//input[@id="user-name"]", "standard_user"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "//input[@id="user-name"]", "standard_user"' source='9b05256a-2c74-43db-bcc5-7f1c1a693d70-attachment.png' type='image/png' size='60331'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1635719384450' status='passed' stop='1635719384847'>
+                            <name>I fill field "//input[@id="password"]", "secret_sauce"</name>
+                            <title>I fill field "//input[@id="password"]", "secret_sauce"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "//input[@id="password"]", "secret_sauce"' source='3cbcc1f0-2fcc-4eeb-9dc0-bf0e7e85711a-attachment.png' type='image/png' size='59078'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1635719384847' status='passed' stop='1635719385219'>
+                            <name>I click "//input[@id="login-button"]"</name>
+                            <title>I click "//input[@id="login-button"]"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "//input[@id="login-button"]"' source='5b1bef8f-f943-4fe3-952b-f2a938e3f345-attachment.png' type='image/png' size='180530'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1635719385219' status='passed' stop='1635719387579'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I wait 2' source='32adf1e2-5fbe-44f7-8468-8b66bf6b0e1e-attachment.png' type='image/png' size='603369'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1635719387579' status='passed' stop='1635719390406'>
+                    <name>homePage: chageCategory "Name (Z to A)"</name>
+                    <title>homePage: chageCategory "Name (Z to A)"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1635719387579' status='passed' stop='1635719388072'>
+                            <name>I select option "//select[@class="product_sort_container"]", "Name (Z to A)"</name>
+                            <title>I select option "//select[@class="product_sort_container"]", "Name (Z to A)"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I select option "//select[@class="product_sort_container"]", "Name (Z to A)"' source='f2c497dd-d36d-4f35-aca1-c94e64a3396c-attachment.png' type='image/png' size='601800'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1635719388072' status='passed' stop='1635719390406'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I wait 2' source='a8b62d06-6113-45f7-ae72-72ab777619d9-attachment.png' type='image/png' size='601800'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1635719390406' status='passed' stop='1635719390777'>
+                    <name>I grab text from "//span[@class="active_option"]"</name>
+                    <title>I grab text from "//span[@class="active_option"]"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I grab text from "//span[@class="active_option"]"' source='e5faddbd-43df-4df5-8c05-2cce48c49ab0-attachment.png' type='image/png' size='601800'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='e086715f-179c-4940-875a-a60449053916-attachment.png' type='image/png' size='601800'/>
+            </attachments>
+            <failure>
+                <message>'Name (Z to A)' == Promise {
+                  &lt;pending>
+                }</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: 'Name (Z to A)' == Promise {
+                  &lt;pending>
+                }
+                    at Test.&lt;anonymous> (/home/shashwata/prototype/codeceptjs/tests/category_test.js:21:12)
+                    at Context.test.fn (/home/shashwata/prototype/codeceptjs/node_modules/codeceptjs/lib/scenario.js:91:14)
+                    at callFnAsync (/home/shashwata/prototype/codeceptjs/node_modules/mocha/lib/runnable.js:386:21)
+                    at Test.Runnable.run (/home/shashwata/prototype/codeceptjs/node_modules/mocha/lib/runnable.js:330:7)
+                    at Runner.runTest (/home/shashwata/prototype/codeceptjs/node_modules/mocha/lib/runner.js:621:10)
+                    at /home/shashwata/prototype/codeceptjs/node_modules/mocha/lib/runner.js:745:12
+                    at next (/home/shashwata/prototype/codeceptjs/node_modules/mocha/lib/runner.js:538:14)
+                    at /home/shashwata/prototype/codeceptjs/node_modules/mocha/lib/runner.js:548:7
+                    at next (/home/shashwata/prototype/codeceptjs/node_modules/mocha/lib/runner.js:430:14)
+                    at cbHookRun (/home/shashwata/prototype/codeceptjs/node_modules/mocha/lib/runner.js:495:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,90 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1635720341697' stop='1635720354659'>
+    <name>category:</name>
+    <title>category:</title>
+    <test-cases>
+        <test-case start='1635720341699' status='failed' stop='1635720353647'>
+            <name>change product category</name>
+            <title>change product category</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1635720344027' status='passed' stop='1635720345634'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/"' source='9f825c3f-99b8-46be-9368-455f290cc178-attachment.png' type='image/png' size='59782'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635720345635' status='passed' stop='1635720348744'>
+                    <name>loginPage: login </name>
+                    <title>loginPage: login </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1635720345635' status='passed' stop='1635720345977'>
+                            <name>I fill field "//input[@id="user-name"]", "standard_user"</name>
+                            <title>I fill field "//input[@id="user-name"]", "standard_user"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "//input[@id="user-name"]", "standard_user"' source='b9d2b02e-6b2f-4ac8-a0b6-f681eaaa2857-attachment.png' type='image/png' size='60331'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1635720345977' status='passed' stop='1635720346301'>
+                            <name>I fill field "//input[@id="password"]", "secret_sauce"</name>
+                            <title>I fill field "//input[@id="password"]", "secret_sauce"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "//input[@id="password"]", "secret_sauce"' source='cbd448a2-fd01-4396-9165-d6ad680814ad-attachment.png' type='image/png' size='59119'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1635720346301' status='passed' stop='1635720346543'>
+                            <name>I click "//input[@id="login-button"]"</name>
+                            <title>I click "//input[@id="login-button"]"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "//input[@id="login-button"]"' source='03f0cceb-2f8c-4378-9360-56e3eb910077-attachment.png' type='image/png' size='67642'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1635720346543' status='passed' stop='1635720348744'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I wait 2' source='b68f4db4-4eee-4c21-8894-dcbf109959c8-attachment.png' type='image/png' size='67642'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1635720348744' status='failed' stop='1635720353647'>
+                    <name>homePage: chageCategory "Name (Z to A)"</name>
+                    <title>homePage: chageCategory "Name (Z to A)"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1635720348744' status='failed' stop='1635720353643'>
+                            <name>I select option "//select[@class="product_sort_container"]", "Name (Z to A)"</name>
+                            <title>I select option "//select[@class="product_sort_container"]", "Name (Z to A)"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot of step I select option "//select[@class="product_sort_container"]", "Name (Z to A)"' source='eda38ebf-0518-4250-a01b-1a4987a4ce05-attachment.png' type='image/png' size='67642'/>
+                <attachment title='Screenshot of step I wait 2' source='1f4dc1c4-f755-4b9c-91ce-64a0908c598a-attachment.png' type='image/png' size='67642'/>
+                <attachment title='Screenshot of step I grab text from "//span[@class="active_option"]"' source='0064ea7a-ea2a-43ca-8e57-12d7deab0b7b-attachment.png' type='image/png' size='67642'/>
+                <attachment title='Last Seen Screenshot' source='c343ee75-9d68-41ce-88ce-6f283a65c9fd-attachment.png' type='image/png' size='67642'/>
+            </attachments>
+            <failure>
+                <message>Selectable field "//select[@class="product_sort_container"]" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Selectable field "//select[@class="product_sort_container"]" was not found by text|CSS|XPath
+                    at new ElementNotFound (/home/shashwata/prototype/codeceptjs/node_modules/codeceptjs/lib/helper/errors/ElementNotFound.js:14:11)
+                    at assertElementExists (/home/shashwata/prototype/codeceptjs/node_modules/codeceptjs/lib/helper/WebDriver.js:2835:11)
+                    at WebDriver.selectOption (/home/shashwata/prototype/codeceptjs/node_modules/codeceptjs/lib/helper/WebDriver.js:1060:5)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at async Test.&lt;anonymous> (/home/shashwata/prototype/codeceptjs/tests/category_test.js:20:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1635718119657' stop='1635718129186'>
+    <name>category:</name>
+    <title>category:</title>
+    <test-cases>
+        <test-case start='1635718124033' status='failed' stop='1635718128594'>
+            <name>change product category</name>
+            <title>change product category</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='651bce30-c7de-4620-b9dc-b529f95af110-attachment.png' type='image/png' size='8586'/>
+            </attachments>
+            <failure>
+                <message>Object of type homePage is not defined in container</message>
+                <stack-trace>Error: Object of type homePage is not defined in container
+                    at getInjectedArguments (/home/shashwata/prototype/codeceptjs/node_modules/codeceptjs/lib/scenario.js:212:13)
+                    at Context.test.fn (/home/shashwata/prototype/codeceptjs/node_modules/codeceptjs/lib/scenario.js:91:25)
+                    at callFnAsync (/home/shashwata/prototype/codeceptjs/node_modules/mocha/lib/runnable.js:386:21)
+                    at Test.Runnable.run (/home/shashwata/prototype/codeceptjs/node_modules/mocha/lib/runnable.js:330:7)
+                    at Runner.runTest (/home/shashwata/prototype/codeceptjs/node_modules/mocha/lib/runner.js:621:10)
+                    at /home/shashwata/prototype/codeceptjs/node_modules/mocha/lib/runner.js:745:12
+                    at next (/home/shashwata/prototype/codeceptjs/node_modules/mocha/lib/runner.js:538:14)
+                    at /home/shashwata/prototype/codeceptjs/node_modules/mocha/lib/runner.js:548:7
+                    at next (/home/shashwata/prototype/codeceptjs/node_modules/mocha/lib/runner.js:430:14)
+                    at cbHookRun (/home/shashwata/prototype/codeceptjs/node_modules/mocha/lib/runner.js:495:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

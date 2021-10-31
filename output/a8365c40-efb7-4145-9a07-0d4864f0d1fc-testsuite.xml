@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1635718169804' stop='1635718184167'>
+    <name>category:</name>
+    <title>category:</title>
+    <test-cases>
+        <test-case start='1635718172872' status='failed' stop='1635718183700'>
+            <name>change product category</name>
+            <title>change product category</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1635718177884' status='passed' stop='1635718180007'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/"' source='ffba5dff-2dad-4108-b7e3-c3af1143f7a1-attachment.png' type='image/png' size='59782'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635718180008' status='passed' stop='1635718181251'>
+                    <name>loginPage: login </name>
+                    <title>loginPage: login </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1635718180008' status='passed' stop='1635718180397'>
+                            <name>I fill field "//input[@id="user-name"]", "standard_user"</name>
+                            <title>I fill field "//input[@id="user-name"]", "standard_user"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "//input[@id="user-name"]", "standard_user"' source='ed5c8b04-a4d2-425d-a6d0-303b84ca9f59-attachment.png' type='image/png' size='60331'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1635718180397' status='passed' stop='1635718180732'>
+                            <name>I fill field "//input[@id="password"]", "secret_sauce"</name>
+                            <title>I fill field "//input[@id="password"]", "secret_sauce"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "//input[@id="password"]", "secret_sauce"' source='289097bd-7b82-45d8-a761-ef3a4e6639a6-attachment.png' type='image/png' size='59078'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1635718180732' status='passed' stop='1635718181250'>
+                            <name>I click "//input[@id="login-button"]"</name>
+                            <title>I click "//input[@id="login-button"]"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "//input[@id="login-button"]"' source='8a073404-405f-443b-bd42-31fdcb7ae888-attachment.png' type='image/png' size='195623'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1635718181251' status='passed' stop='1635718183698'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I wait 2' source='7f0c5989-ded4-4fef-9e28-94343d7bfcc5-attachment.png' type='image/png' size='603369'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='f0df4ca5-8187-4407-b71c-2432f0d214f8-attachment.png' type='image/png' size='603369'/>
+            </attachments>
+            <failure>
+                <message>homePage.change_category is not a function</message>
+                <stack-trace>TypeError: homePage.change_category is not a function
+                    at Test.&lt;anonymous> (/home/shashwata/prototype/codeceptjs/tests/category_test.js:15:14)
+                    at Context.test.fn (/home/shashwata/prototype/codeceptjs/node_modules/codeceptjs/lib/scenario.js:91:14)
+                    at callFnAsync (/home/shashwata/prototype/codeceptjs/node_modules/mocha/lib/runnable.js:386:21)
+                    at Test.Runnable.run (/home/shashwata/prototype/codeceptjs/node_modules/mocha/lib/runnable.js:330:7)
+                    at Runner.runTest (/home/shashwata/prototype/codeceptjs/node_modules/mocha/lib/runner.js:621:10)
+                    at /home/shashwata/prototype/codeceptjs/node_modules/mocha/lib/runner.js:745:12
+                    at next (/home/shashwata/prototype/codeceptjs/node_modules/mocha/lib/runner.js:538:14)
+                    at /home/shashwata/prototype/codeceptjs/node_modules/mocha/lib/runner.js:548:7
+                    at next (/home/shashwata/prototype/codeceptjs/node_modules/mocha/lib/runner.js:430:14)
+                    at cbHookRun (/home/shashwata/prototype/codeceptjs/node_modules/mocha/lib/runner.js:495:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,112 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1635720252710' stop='1635720273579'>
+    <name>category:</name>
+    <title>category:</title>
+    <test-cases>
+        <test-case start='1635720257101' status='failed' stop='1635720273148'>
+            <name>change product category</name>
+            <title>change product category</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1635720261531' status='passed' stop='1635720263018'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/"' source='a5df9bdd-2b15-4bc0-a916-5f719d2a4ba1-attachment.png' type='image/png' size='59782'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635720263018' status='passed' stop='1635720266788'>
+                    <name>loginPage: login </name>
+                    <title>loginPage: login </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1635720263019' status='passed' stop='1635720263374'>
+                            <name>I fill field "//input[@id="user-name"]", "standard_user"</name>
+                            <title>I fill field "//input[@id="user-name"]", "standard_user"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "//input[@id="user-name"]", "standard_user"' source='cee815c3-cf49-4fca-8877-5a0d70d513b4-attachment.png' type='image/png' size='60331'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1635720263375' status='passed' stop='1635720263685'>
+                            <name>I fill field "//input[@id="password"]", "secret_sauce"</name>
+                            <title>I fill field "//input[@id="password"]", "secret_sauce"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "//input[@id="password"]", "secret_sauce"' source='6bc2a30a-578b-4557-8860-16998bcf25ad-attachment.png' type='image/png' size='59078'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1635720263685' status='passed' stop='1635720264222'>
+                            <name>I click "//input[@id="login-button"]"</name>
+                            <title>I click "//input[@id="login-button"]"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "//input[@id="login-button"]"' source='5edb3fbd-ffdb-4f44-b34f-ace95f90d3b9-attachment.png' type='image/png' size='294489'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1635720264222' status='passed' stop='1635720266788'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I wait 2' source='b8d115c8-708c-4a10-b4eb-b4e737687641-attachment.png' type='image/png' size='603369'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1635720266788' status='passed' stop='1635720267712'>
+                    <name>I grab text from "//div[@class="inventory_item_price"]"</name>
+                    <title>I grab text from "//div[@class="inventory_item_price"]"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I grab text from "//div[@class="inventory_item_price"]"' source='fd3a06f6-eac8-43bb-81c8-2ce7a6252ac8-attachment.png' type='image/png' size='603369'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635720267713' status='passed' stop='1635720268283'>
+                    <name>homePage: goToCart </name>
+                    <title>homePage: goToCart </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1635720267713' status='passed' stop='1635720268047'>
+                            <name>I click "//a[@class="shopping_cart_link"]"</name>
+                            <title>I click "//a[@class="shopping_cart_link"]"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "//a[@class="shopping_cart_link"]"' source='a5072a82-267a-4656-a109-bb7b0fe785ce-attachment.png' type='image/png' size='75857'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1635720268048' status='passed' stop='1635720268283'>
+                            <name>I see "YOUR CART", "//span[@class="title"]"</name>
+                            <title>I see "YOUR CART", "//span[@class="title"]"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I see "YOUR CART", "//span[@class="title"]"' source='8ccd9125-d281-48eb-9cac-4227a0845671-attachment.png' type='image/png' size='75857'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1635720268283' status='failed' stop='1635720273146'>
+                    <name>I grab text from "//div[@class="inventory_item_price"]"</name>
+                    <title>I grab text from "//div[@class="inventory_item_price"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot of step I grab text from "//div[@class="inventory_item_price"]"' source='51a1deb8-e8e6-4573-9a14-463d49eee709-attachment.png' type='image/png' size='75857'/>
+                <attachment title='Last Seen Screenshot' source='04aaa801-83ae-49ad-a104-92504654997e-attachment.png' type='image/png' size='75857'/>
+            </attachments>
+            <failure>
+                <message>Element "//div[@class="inventory_item_price"]" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Element "//div[@class="inventory_item_price"]" was not found by text|CSS|XPath
+                    at new ElementNotFound (/home/shashwata/prototype/codeceptjs/node_modules/codeceptjs/lib/helper/errors/ElementNotFound.js:14:11)
+                    at assertElementExists (/home/shashwata/prototype/codeceptjs/node_modules/codeceptjs/lib/helper/WebDriver.js:2835:11)
+                    at WebDriver.grabTextFrom (/home/shashwata/prototype/codeceptjs/node_modules/codeceptjs/lib/helper/WebDriver.js:1170:5)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at async Test.&lt;anonymous> (/home/shashwata/prototype/codeceptjs/tests/addToCart_test.js:22:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

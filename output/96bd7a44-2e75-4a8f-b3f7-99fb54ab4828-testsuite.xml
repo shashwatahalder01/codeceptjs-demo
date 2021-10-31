@@ -1,0 +1,62 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1635720394880' stop='1635720404968'>
+    <name>category:</name>
+    <title>category:</title>
+    <test-cases>
+        <test-case start='1635720394883' status='failed' stop='1635720404570'>
+            <name>change product category</name>
+            <title>change product category</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1635720397918' status='passed' stop='1635720399294'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/"' source='d639eee4-5b49-4235-857d-2645af91a4ed-attachment.png' type='image/png' size='59782'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635720399295' status='failed' stop='1635720404570'>
+                    <name>loginPage: login </name>
+                    <title>loginPage: login </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1635720399295' status='failed' stop='1635720404560'>
+                            <name>I fill field "//input[@id="user-name"]", "standard_user"</name>
+                            <title>I fill field "//input[@id="user-name"]", "standard_user"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot of step I fill field "//input[@id="user-name"]", "standard_user"' source='08b5342a-cc8e-4992-885f-d18c5f5d0e2e-attachment.png' type='image/png' size='60331'/>
+                <attachment title='Screenshot of step I wait 2' source='b4d5aac9-67e4-4e16-94e8-7c7535b20c6f-attachment.png' type='image/png' size='67642'/>
+                <attachment title='Screenshot of step I select option "//select[@class="product_sort_container"]", "Name (Z to A)"' source='8f837ff5-c6f6-46da-b6bd-889f2f44db73-attachment.png' type='image/png' size='67642'/>
+                <attachment title='Screenshot of step I wait 2' source='fe50a134-dfc4-4e8d-9218-3da17f5efee0-attachment.png' type='image/png' size='67642'/>
+                <attachment title='Screenshot of step I fill field "//input[@id="password"]", "secret_sauce"' source='022526ed-a4ce-4350-b345-93b7fa08bf99-attachment.png' type='image/png' size='59119'/>
+                <attachment title='Screenshot of step I click "//input[@id="login-button"]"' source='bbffadba-bfcf-4187-a50a-eda397a513d5-attachment.png' type='image/png' size='67642'/>
+                <attachment title='Screenshot of step I grab text from "//span[@class="active_option"]"' source='58dfd4dd-c2ee-4a2d-9289-70148cd3e8c0-attachment.png' type='image/png' size='67642'/>
+            </attachments>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=95.0.4638.54)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=95.0.4638.54)
+                    at Object.getErrorFromResponseBody (/home/shashwata/prototype/codeceptjs/node_modules/webdriver/build/utils.js:94:12)
+                    at WebDriverRequest._request (/home/shashwata/prototype/codeceptjs/node_modules/webdriver/build/request.js:134:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at async Browser.wrapCommandFn (/home/shashwata/prototype/codeceptjs/node_modules/@wdio/utils/build/shim.js:63:29)
+                    at async Browser.$$ (/home/shashwata/prototype/codeceptjs/node_modules/webdriverio/build/commands/browser/$$.js:6:17)
+                    at async Browser.wrapCommandFn (/home/shashwata/prototype/codeceptjs/node_modules/@wdio/utils/build/shim.js:63:29)
+                    at async WebDriver._locate (/home/shashwata/prototype/codeceptjs/node_modules/codeceptjs/lib/helper/WebDriver.js:804:19)
+                    at async WebDriver.fillField (/home/shashwata/prototype/codeceptjs/node_modules/codeceptjs/lib/helper/WebDriver.js:1027:17)
+                    at async Test.&lt;anonymous> (/home/shashwata/prototype/codeceptjs/tests/category_test.js:20:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

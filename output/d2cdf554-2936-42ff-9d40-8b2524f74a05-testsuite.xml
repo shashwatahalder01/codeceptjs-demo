@@ -1,0 +1,134 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1635718280862' stop='1635718306561'>
+    <name>category:</name>
+    <title>category:</title>
+    <test-cases>
+        <test-case start='1635718285219' status='passed' stop='1635718306407'>
+            <name>change product category</name>
+            <title>change product category</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1635718289621' status='passed' stop='1635718291858'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/"' source='5318c67c-0862-44a5-b824-80aab22263b4-attachment.png' type='image/png' size='59782'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635718291859' status='passed' stop='1635718292947'>
+                    <name>loginPage: login </name>
+                    <title>loginPage: login </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1635718291859' status='passed' stop='1635718292244'>
+                            <name>I fill field "//input[@id="user-name"]", "standard_user"</name>
+                            <title>I fill field "//input[@id="user-name"]", "standard_user"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "//input[@id="user-name"]", "standard_user"' source='f26043e6-527f-4930-aba7-cd36d8b18f42-attachment.png' type='image/png' size='60331'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1635718292246' status='passed' stop='1635718292551'>
+                            <name>I fill field "//input[@id="password"]", "secret_sauce"</name>
+                            <title>I fill field "//input[@id="password"]", "secret_sauce"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "//input[@id="password"]", "secret_sauce"' source='4cd98e7c-5c63-405e-93cf-3583448139f0-attachment.png' type='image/png' size='59078'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1635718292551' status='passed' stop='1635718292947'>
+                            <name>I click "//input[@id="login-button"]"</name>
+                            <title>I click "//input[@id="login-button"]"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "//input[@id="login-button"]"' source='4eaa4c91-4d96-45b4-8625-ade6588500e8-attachment.png' type='image/png' size='180530'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1635718292947' status='passed' stop='1635718295293'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I wait 2' source='86370728-ffa5-4e2f-b647-b4d6351bde2b-attachment.png' type='image/png' size='603369'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1635718295293' status='passed' stop='1635718306407'>
+                    <name>homePage: chageCategory "Name (A to Z)"</name>
+                    <title>homePage: chageCategory "Name (A to Z)"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1635718295293' status='passed' stop='1635718295798'>
+                            <name>I select option "//select[@class="product_sort_container"]", "Name (Z to A)"</name>
+                            <title>I select option "//select[@class="product_sort_container"]", "Name (Z to A)"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I select option "//select[@class="product_sort_container"]", "Name (Z to A)"' source='64cc79b7-5f5f-4db0-9535-f9e9368b7196-attachment.png' type='image/png' size='601800'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1635718295799' status='passed' stop='1635718298157'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I wait 2' source='f1c65a6e-13d5-44e5-bebc-67cf00f37804-attachment.png' type='image/png' size='601800'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1635718298158' status='passed' stop='1635718298599'>
+                            <name>I select option "//select[@class="product_sort_container"]", "Price (low to high)"</name>
+                            <title>I select option "//select[@class="product_sort_container"]", "Price (low to high)"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I select option "//select[@class="product_sort_container"]", "Price (low to high)"' source='70586ece-1e80-479c-beea-82dea09a752b-attachment.png' type='image/png' size='607739'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1635718298599' status='passed' stop='1635718300944'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I wait 2' source='095b34ce-cad7-406f-96b7-fcf87ec1ed19-attachment.png' type='image/png' size='607739'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1635718300944' status='passed' stop='1635718301346'>
+                            <name>I select option "//select[@class="product_sort_container"]", "Price (high to low)"</name>
+                            <title>I select option "//select[@class="product_sort_container"]", "Price (high to low)"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I select option "//select[@class="product_sort_container"]", "Price (high to low)"' source='d407ba17-43b9-4cd9-9626-e7a85ad98210-attachment.png' type='image/png' size='607370'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1635718301346' status='passed' stop='1635718303690'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I wait 2' source='6f698639-9943-4f8b-aee4-53d722746fea-attachment.png' type='image/png' size='607370'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1635718303690' status='passed' stop='1635718304095'>
+                            <name>I select option "//select[@class="product_sort_container"]", "Name (A to Z)"</name>
+                            <title>I select option "//select[@class="product_sort_container"]", "Name (A to Z)"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I select option "//select[@class="product_sort_container"]", "Name (A to Z)"' source='863d4540-3ab2-45e7-a290-7ca92e077967-attachment.png' type='image/png' size='603369'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1635718304096' status='passed' stop='1635718306405'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I wait 2' source='8d665ffb-49b0-4a52-b433-fa5a9f1c4c68-attachment.png' type='image/png' size='603369'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
